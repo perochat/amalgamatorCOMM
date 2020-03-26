@@ -1,0 +1,27 @@
+#' @title Beispieldaten (simuliert)
+#'
+#' @description Der Dataframe dient der Illustration des Packages. Er enthält neben der Gemeindenummer und dem Gemeindename
+#' (Stand 01.01.1980) zwei Variablen mit zufälligen, simulierten Daten.
+#'
+#' @name bspdata
+#'
+#' @docType data
+#'
+#' @usage bspdata
+#'
+#' @format Ein Dataframe mit 3029 Zeilen und 4 Spalten.
+#'
+#' @details Folgende Daten stehen zur Verfügung:
+#'
+#'     \strong{Code:} Gemeindenummern, Stand 01.01.1980.
+#'
+#'     \strong{Gemeinden:} Gemeindenamen, Stand 01.01.1980.
+#'
+#'     \strong{Var1:} Zufällig Ganzzahlen zwischen 1000 und 10000.
+#'
+#'     \strong{Var2:} Zufällige, normalverteilte Zahlen, mean=100, sd=50.
+#'
+#' @source Gemeindenummer und Gemeindenamen zum Zeitpunkt 1. Januar 1980 stammen vom Gemeindeverzeichnis
+#' des Bundesamts für Statistik. \code{Var1} und \code{Var2} sind simulierte Zahlen (\code{set.seed(123)}).
+#'
+NULL
