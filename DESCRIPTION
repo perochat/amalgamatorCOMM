@@ -1,0 +1,18 @@
+Package: amalgamatorCOMM
+Type: Package
+Title: Aggregation kommunaler Daten der Schweiz auf einen späteren Gemeindestand
+Version: 0.1.0
+Date: 2020-03-25
+Author: Philippe E. Rochat
+Maintainer: Philippe E. Rochat <p.rochat@gmx.net>
+Description: Mit diesem Package können Dataframes mit einem kommunalen Bezug (Gemeindenummer) automatisch auf einen späteren Gemeindestand aggregiert werden. Aggregationen sind für Gemeindestand 01.01.1960 bis 01.01.2020 möglich.
+License: GPL-3
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr
+Suggests:
+    knitr,
+    devtools
+RoxygenNote: 7.0.0
